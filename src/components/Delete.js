@@ -26,16 +26,17 @@ function Delete({ DataObj }) {
                 style={{
                     overlay: {
                         backgroundColor: 'transparent',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems:'center',
                     },
                     content: {
                         backgroundColor: 'black',
                         position: 'fixed',
-                        left: '37%',
-                        top: '20%',
-                        width: '26%',
+                        width: 'auto',
                         height: '330px',
                         border: '2px darkgray solid',
-                        paddingLeft:'5px'
+                        paddingLeft: '5px'
                     }
                 }}
             >
@@ -44,7 +45,7 @@ function Delete({ DataObj }) {
                         <FontAwesomeIcon icon={faTimesCircle} style={{ color: 'white', fontSize: '20px' }} /></span>
                     <img src={DataObj.AttachmentURL} />
                     <p className={styles.modaltext}>{DataObj.text}</p>
-                    <button className={styles.delete}onClick={Delete}>삭제하기</button>
+                    <button className={styles.delete} onClick={Delete}>삭제하기</button>
                 </div>
             </Modal> : null}
 

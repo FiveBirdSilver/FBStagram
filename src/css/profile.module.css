@@ -119,6 +119,7 @@
 .modal::-webkit-scrollbar {
     display: none;
   }
+
 .modaltext {
     color: whitesmoke;
     font-family: 'Gowun Dodum', sans-serif;
@@ -145,6 +146,9 @@
 }
 @media screen and (max-width:768px) {
 .contain{
+    width: 90%;
+}
+.modal {
     width: 90%;
 }
 }

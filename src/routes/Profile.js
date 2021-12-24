@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { getAuth, signOut } from "firebase/auth";
-import { useEffect, useState } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
 import { collection, query, where, getDocs, addDoc, onSnapshot } from "firebase/firestore";
 import { dbService, storageService } from "../myBase";
 import { updateProfile } from "firebase/auth";
