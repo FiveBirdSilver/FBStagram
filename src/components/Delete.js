@@ -36,7 +36,7 @@ function Delete({ DataObj }) {
                         width: 'auto',
                         height: '330px',
                         border: '2px darkgray solid',
-                        paddingLeft: '5px'
+                        padding:'5px 10px 0 10px'
                     }
                 }}
             >

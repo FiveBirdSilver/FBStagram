@@ -5,7 +5,7 @@ import { collection, addDoc, doc, serverTimestamp, onSnapshot, query, orderBy, w
 import { getDownloadURL, ref, uploadString } from "firebase/storage";
 import styles from "../css/Home.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlusSquare, faImages } from "@fortawesome/free-regular-svg-icons"
+import { faPlusSquare, faImages, faHeart } from "@fortawesome/free-regular-svg-icons"
 import { faUser } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "react-router-dom";
 import userimg from "../image/user.png";
@@ -99,7 +99,6 @@ function Home({ UserObj, DataObj }) { // UserObj : (현재 로그인된) 사용�
                         <p> </p>
                         <textarea className={styles.text}
                             style={{ paddingLeft: '10px', paddingTop:'5px', height:'85px'}}
-                            
                             value={Store}
                             placeholder="오늘을 기록해보세요"
                             onChange={change}
@@ -118,10 +117,12 @@ function Home({ UserObj, DataObj }) { // UserObj : (현재 로그인된) 사용�
                 {Call.map((e) => 
                     <div key={e.id} className={styles.homefiled}>
                         <div className={styles.userinfo}>
-                            {e.profilephoto ? <img style={{
+                            {e.profilephoto ? 
+                            <img style={{
                                 width: '30px', height: '30px',
                                 borderRadius: '50%'
-                            }} src={e.profilephoto} /> :  <img style={{
+                            }} src={e.profilephoto} /> :  
+                            <img style={{
                                 width: '30px', height: '30px',
                                 borderRadius: '50%'
                             }} src={userimg} /> }
@@ -135,7 +136,7 @@ function Home({ UserObj, DataObj }) { // UserObj : (현재 로그인된) 사용�
             </div>
 
                             
-            <h3>FiveBirdSilver ⓒ 2021 All rights reserved.</h3>
+            <h3 style={{fontSize:'11px'}}>FiveBirdSilver ⓒ 2021 All rights reserved.</h3>
         </div>
     )
 }

@@ -83,7 +83,7 @@ function Profile({ UserObj }) {
         
         <div className={styles.contain}>
             <div className={styles.titlenlogout}>
-                <p className={styles.title}>MY FBStagram</p>
+                <h1 className={styles.title}>FBStagram</h1>
                 <Link to={"/Home"}><button className={styles.profilebtn}><FontAwesomeIcon icon={faHome}
                   style={{ color: 'white', fontSize: '20px'}}/></button></Link>               
                 <Link to={"/"}><button className={styles.profilebtn} onClick={onLogOut}><FontAwesomeIcon icon={faSignOutAlt}
