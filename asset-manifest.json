@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FBStagram/static/css/main.f29691e7.css",
+    "main.js": "/FBStagram/static/js/main.3a4360d5.js",
+    "static/media/user.png": "/FBStagram/static/media/user.a6143582309785dca610.png",
+    "index.html": "/FBStagram/index.html",
+    "main.f29691e7.css.map": "/FBStagram/static/css/main.f29691e7.css.map",
+    "main.3a4360d5.js.map": "/FBStagram/static/js/main.3a4360d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f29691e7.css",
+    "static/js/main.3a4360d5.js"
+  ]
+}
