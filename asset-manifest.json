@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/FBStagram/static/css/main.f29691e7.css",
-    "main.js": "/FBStagram/static/js/main.bb1bb046.js",
+    "main.css": "/FBStagram/static/css/main.58aa296a.css",
+    "main.js": "/FBStagram/static/js/main.be015591.js",
     "static/media/user.png": "/FBStagram/static/media/user.a6143582309785dca610.png",
     "index.html": "/FBStagram/index.html",
-    "main.f29691e7.css.map": "/FBStagram/static/css/main.f29691e7.css.map",
-    "main.bb1bb046.js.map": "/FBStagram/static/js/main.bb1bb046.js.map"
+    "main.58aa296a.css.map": "/FBStagram/static/css/main.58aa296a.css.map",
+    "main.be015591.js.map": "/FBStagram/static/js/main.be015591.js.map"
   },
   "entrypoints": [
-    "static/css/main.f29691e7.css",
-    "static/js/main.bb1bb046.js"
+    "static/css/main.58aa296a.css",
+    "static/js/main.be015591.js"
   ]
 }
