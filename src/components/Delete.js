@@ -25,18 +25,18 @@ function Delete({ DataObj }) {
                 className={styles.modal}
                 style={{
                     overlay: {
-                        backgroundColor: 'transparent',
+                        backgroundColor:'transparent',
                         display: 'flex',
                         justifyContent: 'center',
-                        alignItems:'center',
+                        alignItems: 'center',
                     },
                     content: {
                         backgroundColor: 'black',
-                        position: 'fixed',
-                        width: 'auto',
+                        position:'fixed',
                         height: '330px',
+                        width:'auto',
                         border: '2px darkgray solid',
-                        padding:'5px 10px 0 10px'
+                        padding: '5px 10px 0 10px',
                     }
                 }}
             >

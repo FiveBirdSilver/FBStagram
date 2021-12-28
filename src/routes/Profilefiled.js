@@ -13,6 +13,7 @@ function Profilefiled({ UserObj }) { // UserObj : (현재 로그인된) 사용�
     const [Space, setSpace] = useState(false);
 
     const Click = (e) => {
+        console.log(e.target.src)
         setClickUrl(e.target.src);
         setPhotoClick(prev => !prev);
         setModalIsOpen(true);

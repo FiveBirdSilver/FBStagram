@@ -108,6 +108,21 @@
 .userinfo span {
     padding: 15px 0 0 10px;
 }
+.heart {
+    background-color: transparent;
+    border:0;
+}
+.like {
+    display: flex;
+    flex-direction: row;
+}
+.like img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    opacity: 0;
+}
 @media screen and (max-width:768px) {
     .contain{
         width: 90%;
@@ -116,4 +131,4 @@
     .homefiled {
         padding: 10px 10px 10px 10px;
     }
-    }
+}

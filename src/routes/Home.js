@@ -21,6 +21,7 @@ function Home({ UserObj, DataObj }) { // UserObj : (현재 로그인된) 사용�
         const { value } = e.target;
         setStore(value);
     }
+
     const submit = async (e) => { //input에 입력하고 폼을 넘기는 순간
         e.preventDefault();
         let AttachmentURL = "";
@@ -99,6 +100,7 @@ function Home({ UserObj, DataObj }) { // UserObj : (현재 로그인된) 사용�
                         <p> </p>
                         <textarea className={styles.text}
                             style={{ paddingLeft: '10px', paddingTop:'5px', height:'85px'}}
+                            
                             value={Store}
                             placeholder="오늘을 기록해보세요"
                             onChange={change}
@@ -117,12 +119,10 @@ function Home({ UserObj, DataObj }) { // UserObj : (현재 로그인된) 사용�
                 {Call.map((e) => 
                     <div key={e.id} className={styles.homefiled}>
                         <div className={styles.userinfo}>
-                            {e.profilephoto ? 
-                            <img style={{
+                            {e.profilephoto ? <img style={{
                                 width: '30px', height: '30px',
                                 borderRadius: '50%'
-                            }} src={e.profilephoto} /> :  
-                            <img style={{
+                            }} src={e.profilephoto} /> :  <img style={{
                                 width: '30px', height: '30px',
                                 borderRadius: '50%'
                             }} src={userimg} /> }
